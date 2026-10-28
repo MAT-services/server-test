@@ -1,0 +1,9 @@
+[[settings]]
+defaultFiles=[".html", ".bat"]
+rootAccess="."
+
+[[types.html]]
+type="still"
+[[types.bat]]
+type="command"
+command="cmd -c %"
