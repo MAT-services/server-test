@@ -1,5 +1,9 @@
-use clap::Parser;
+//! Doccumentation:
+//! Tinny_HTTP: https://crates.io/crates/tiny_http
+//! Clap: https://crates.io/crates/clap
+//! TOML: https://crates.io/crates/toml
 
+use clap::Parser;
 use crate::server::serve;
 #[path = "./server.rs"] mod server;
 
